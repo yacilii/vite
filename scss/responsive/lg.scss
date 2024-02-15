@@ -1,0 +1,278 @@
+@media screen and (max-width: 1200px){
+    .menu{
+        padding: 0 50px;
+    }
+    .banner{
+        padding: 0 50px 36px 50px ;
+        .caption{
+            .title{
+                font-size: 68px;
+            }
+            .author{
+                margin-top: 34px;
+            }
+        }
+    }
+    .logos{
+        padding: 66px 50px;
+    }
+    .about{
+        padding:  0 50px;
+        .caption{
+            .title{
+                font-size: 40px;
+            }
+        }
+    }
+    .stats{
+        padding:  0 50px ;
+    }
+    .work{
+        padding: 0 50px 76px 50px;
+        &::after{
+            content: "";
+            display: block;
+            width: calc(100% - 2 * 76px);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 1px;
+            background-color: #F3D1BF;
+        }
+    }
+    .video{
+        padding: 0 50px;
+        .img{
+            .time{
+                left: 17px;
+                bottom: 12px;
+            }
+        }
+        .caption{
+            .title{
+                font-size: 35px;
+                line-height: 40px;
+            }
+        }
+    }
+    .feature{
+        padding: 0 50px;
+        margin-top: 160px;
+    }   
+    .Professional{
+        padding: 0 50px;
+        margin-top: 160px;
+        .border{
+            .border__one{
+                width: 320px;
+                height: 300px;
+                padding: 38px 30px;
+                .title{
+                    margin-top: 30px;
+                }
+                .paragraph{
+                    margin-top: 10px;
+                }
+            }
+            .border__two{
+                width: 250px;
+                height: 252px;
+                padding: 38px 30px;
+            }
+        }
+    }
+    .service{
+        padding: 0 50px;
+        margin-top: 170px;
+        .caption{
+            .title{
+                font-size: 47px;
+                line-height: 54px;
+            }
+            .author{
+                margin-top: 20px;
+                .author__cap{
+                    .quote{
+                        line-height: 20px;
+                    }
+                }
+            }
+           }
+    }
+    .help{
+        padding: 0 50px 100px 50px;
+    }
+    .portfolio{
+        padding: 90px 50px 70px 50px;
+    }
+    .images{
+        padding: 0 50px;
+    }  
+    .get{
+        padding: 0 50px;
+        .colori{
+            padding: 70px 60px 0 60px;
+            .third{
+                img{
+                    width: 250px;
+                    height: auto;
+                }
+                .girl{
+                    right: 5px;
+                    img{
+                        width: 215px;
+                        height: 360px;
+                    }
+                }
+            }
+        }
+    }  
+    .event{
+        padding: 0 50px;
+    }
+    .date{
+        padding: 0 50px;
+
+        .one{
+            .down{
+                height: 300px;
+            }
+        }
+    }
+    .team{
+        padding: 0 50px;
+    }
+    .sliderfirst{
+        padding: 0 50px;
+    }
+    .slidertwo{
+        padding: 0 50px;
+         .swiper{
+            .swiper-slide{
+                .inside{
+                    .black{
+                        padding-top: 20px;
+                        img{
+                           width: 276px;
+                           height: 250px;
+                        }
+                    }
+                }
+            }
+         }
+    }
+    .founder{
+        padding: 0 50px;
+        column-gap: 100px;
+        .caption{
+           .title{
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 40px;
+           }
+        }
+    }
+    .Testi{
+        padding: 0 50px;
+        padding-top: 100px;
+        .star{
+            .left{
+              .same{
+                  height: 390px;
+              }
+              .up{
+                  height: 440px;
+              }
+            }
+            .right{
+              .same{
+                  height: 390px;
+              }
+            }
+         }
+    }
+    .buttonn{
+        padding: 0 50px;
+    }
+    .Pricing{
+        padding: 0 50px ;
+    }
+    .offf{
+        padding: 0 50px;
+        .child{
+            padding:30px 25px;
+        }
+    }
+    .Faq{
+        padding: 0 50px;
+    }
+    .ourss{
+        padding: 0 50px;
+    }
+    .awards{
+        padding: 0 50px;
+    }
+    .blog{
+        padding: 0 50px ;
+    }
+    .Articles{
+        padding: 0 50px;
+        .all{
+            .story{
+                .caption{
+                    gap: 10px;
+                    .title{
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .letter{
+        padding: 0 50px;
+        .email{
+            .foorm{
+                input{
+                    width: 320px;
+                }
+            }
+        }
+    }
+    .map{
+       padding: 0 50px;
+       .pin{
+        right:200px;
+       }
+    }
+    .cont{
+        padding: 0 50px;
+        .table{
+            .table__row{
+                .table__cells{
+                    padding:25px 30px;
+                }
+            }
+        }
+    }
+    .redbig{
+        padding: 0 50px;
+        .red{
+            .caption{
+                .title{
+                    font-size: 46px;
+                    line-height: 60px;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+    .footer{
+        padding: 0 50px;
+    }
+    .finall{
+        padding: 0 50px;
+        padding-bottom: 50px;
+    }
+}

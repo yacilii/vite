@@ -1,0 +1,67 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Epilogue', sans-serif;
+    background-color: #28293E;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+main{
+    width: 100%;
+    background-color: #FDF0E9;
+}
+.btn-secondary{
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 1px 1px 3px 0 rgba(152, 150, 148, 0.88);
+    color: #391400;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0 40px;
+    height: 48px;
+    display: inline-flex;
+    margin-top: 34px;
+    align-items: center;
+}
+.btn-secondaryemty{
+    border-radius: 6px;
+    background: transparent;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0 40px;
+    height: 48px;
+    display: inline-flex;
+    margin-top: 34px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.btn-secondaryred{
+    border-radius: 6px;
+    background-color: #EF6D58;
+    padding: 0 40px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;   
+    text-transform: uppercase; 
+    color: var(--Text_Light, #fff);        
+    font-style: normal    
+}
